@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BookListMVC.Models
 {
-    public class ApplicationDBContext : DbContext
+    public class ApplicationDBContext : DbContext //bridge between the enity and database
     {
         // created this constructor
         public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options) : base(options)
